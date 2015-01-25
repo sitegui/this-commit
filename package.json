@@ -1,26 +1,28 @@
 {
-	"name": "name",
-	"version": "0.0.0",
+	"name": "this-commit",
+	"version": "1.0.0",
 	"author": "Sitegui <sitegui@sitegui.com.br>",
-	"description": "Description",
+	"description": "Get the current commit name",
 	"main": "./index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/x/y"
+		"url": "https://github.com/sitegui/this-commit"
 	},
-	"keywords": [],
+	"keywords": [
+		"git",
+		"rev-parse",
+		"commit"
+	],
 	"dependencies": {},
 	"license": "MIT",
 	"engines": {
 		"node": ">=0.10"
 	},
 	"scripts": {
-		"test": "mocha test",
-		"docs": "jsdoc -d docs -c docs.json -R README.md"
+		"test": "mocha test"
 	},
 	"devDependencies": {
-		"jsdoc": "^3.3.0-alpha13",
 		"mocha": "^2.1.0",
-		"should": "^4.4.1"
+		"should": "^4.6.1"
 	}
 }

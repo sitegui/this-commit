@@ -1,6 +1,6 @@
 # This Commit
 
-Return the current commit name
+Get the current commit name
 
 ## Install
 `npm install this-commit --save`
@@ -15,6 +15,8 @@ var commit = require('this-commit')()
 var commit = require('this-commit').asBuffer()
 // commit is a Buffer instance (or null)
 ```
+
+Both forms accept as an optional argument the '.git' folder. By default, it will be found by walking up from the current working dir.
 
 ## Features
 * Read from `.git` folder on disk, do not execute `git`
